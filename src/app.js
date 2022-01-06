@@ -6,7 +6,7 @@ const forecast = require('./utils/forecast');
 
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const publicDirPath = path.join(__dirname, '../public');// go one level up from root directory to the public dir and return it as string.
 const viewsPath = path.join(__dirname, '../templates/views');
