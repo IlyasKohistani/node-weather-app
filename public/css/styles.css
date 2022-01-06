@@ -267,6 +267,8 @@ body {
     background: #222831;
     margin-bottom: 20px;
     border-radius: 45px;
+	word-break: break-all;
+    max-width: 690px;
 }
 
 footer {
