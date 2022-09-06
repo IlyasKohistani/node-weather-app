@@ -5,19 +5,20 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js -e js,hbs,css"
+    "dev": "env-cmd nodemon src/app.js -e js,hbs,css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dateformat": "^5.0.2",
-    "express": "^4.17.2",
+    "dateformat": "^5.0.3",
+    "express": "^4.18.1",
     "hbs": "^4.2.0",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.19"
   }
 }
