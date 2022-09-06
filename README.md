@@ -1,6 +1,6 @@
 # Node Weather App
 
-[![GitHub Stars](https://img.shields.io/github/stars/IlyasKohistani/node-weather-app.svg)](https://github.com/IlyasKohistani/node-weather-app/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/IlyasKohistani/node-weather-app.svg)](https://github.com/IlyasKohistani/node-weather-app/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/IlyasKohistani/node-weather-app)[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://mik-weather-app.herokuapp.com/)
+[![GitHub Stars](https://img.shields.io/github/stars/IlyasKohistani/node-weather-app.svg)](https://github.com/IlyasKohistani/node-weather-app/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/IlyasKohistani/node-weather-app.svg)](https://github.com/IlyasKohistani/node-weather-app/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/IlyasKohistani/node-weather-app) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://mik-weather-app.herokuapp.com/)
 
 A simple application to search for any place's weather built with `Express.js` and `handlebars.js` view engine. I have used `Request` package to call `api.mapbox.com` to get the searched location all information like: Name, Longitued, latitude an then make a call with these information to `api.weatherstack.com` to get the weather information in that location. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own.
 
